@@ -11,7 +11,7 @@ function App() {
   const [showProfile, setShowProfile] = useState(false);
   const [loadingProfile, setLoadingProfile] = useState(null)
   const getProfile = async (email) => {
-    const response = await axios.get(`http://localhost:8000/api/v1/profile/${email}`)
+    const response = await axios.get(`https://tutedude-profile-backend.onrender.com/api/v1/profile/${email}`)
     if (response.data.profile) {
       setLoadingProfile(response.data.profile);
     }

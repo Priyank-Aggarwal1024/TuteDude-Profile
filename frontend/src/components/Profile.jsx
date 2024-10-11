@@ -27,7 +27,7 @@ function Profile({ userInfo, loadingProfile, setLoadingProfile }) {
         localStorage.setItem("profile", JSON.stringify(profile));
         try {
             if (loadingProfile) {
-                const data = await axios.post("http://localhost:8000/api/v1/update-profile", {
+                const data = await axios.post("https://tutedude-profile-backend.onrender.com/api/v1/update-profile", {
                     profile,
                     edit
                 })
@@ -40,7 +40,7 @@ function Profile({ userInfo, loadingProfile, setLoadingProfile }) {
                 console.log(resData)
             }
             else {
-                const data = await axios.post("http://localhost:8000/api/v1/create-profile", {
+                const data = await axios.post("https://tutedude-profile-backend.onrender.com/api/v1/create-profile", {
                     profile
                 })
                 const resData = data.data.profile;
