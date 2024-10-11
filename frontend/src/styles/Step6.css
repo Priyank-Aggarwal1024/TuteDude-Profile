@@ -1,0 +1,96 @@
+.step6 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 29px;
+}
+
+.certificate-validity {
+    display: flex;
+    gap: 48px;
+    width: 100%;
+    align-items: center;
+}
+
+.cert-to-text {
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.validity-from,
+.validity-to {
+    display: flex;
+    width: 100%;
+    gap: 16px;
+}
+
+.alwaysvalid-div {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    align-self: stretch;
+    width: 100%;
+}
+
+#alwaysValid {
+    display: none;
+}
+
+.alwaysValid-input-unchecked {
+    width: 25px;
+    height: 24px;
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.41);
+}
+
+.alwaysValid-input-checked {
+    width: 25px;
+    height: 24px;
+    border-radius: 7px;
+    border: 2px solid rgba(128, 0, 128, 0.71);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alwaysValid-input-checked::after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    content: "✓";
+    color: rgb(128, 0, 128);
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alwaysValid-label {
+    color: #787A81;
+
+    /* tutedude-typography/label/small */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.add-certificate {
+    color: #992E9D;
+
+    /* tutedude-typography/label/small */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}

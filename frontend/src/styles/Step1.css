@@ -1,0 +1,43 @@
+.step1-live {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 48px;
+}
+
+.skills-div {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.skill-div-added {
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: #992E9D;
+    color: var(--Neutral-Color-50, #F7F7F8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.skill-div-unadded {
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--Woodsmoke-700, #4C4D52);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 100px;
+    border: 1px solid var(--Woodsmoke-300, #ADAFB3);
+}

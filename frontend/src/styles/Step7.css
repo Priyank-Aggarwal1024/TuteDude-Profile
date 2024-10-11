@@ -1,0 +1,48 @@
+.language-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    grid-area: 42px;
+}
+
+.language-input-outer {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.proficiency-opt,
+.proficiency-input {
+    text-transform: capitalize;
+}
+
+.language-input-out {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+}
+
+.language-delete {
+    color: #992E9D;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 100%;
+    text-align: right;
+    cursor: pointer;
+}
+
+.add-language {
+    color: #992E9D;
+
+    /* tutedude-typography/label/small */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}

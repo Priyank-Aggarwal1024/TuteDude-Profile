@@ -1,0 +1,72 @@
+.step2 {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+
+}
+
+.step2-main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+
+.step2-main-row1,
+.step2-main-row2 {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.input-outer-div-step21 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+}
+
+.profession-div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+
+}
+
+.select-profession {
+    color: var(--Neutral-Color-50, #F7F7F8);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 84.058px;
+    background: #992E9D;
+    cursor: pointer;
+}
+
+.unselect-profession {
+    display: flex;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 84.058px;
+    border: 1px solid var(--Woodsmoke-200, #CFD0D2);
+    color: var(--Woodsmoke-800, #434347);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.degree-div {
+    display: flex;
+    gap: 6px;
+}

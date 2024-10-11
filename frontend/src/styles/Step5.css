@@ -1,0 +1,100 @@
+.project-outer-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 29px;
+}
+
+.project-label {
+    color: var(--Woodsmoke-700, #4C4D52);
+
+    /* tutedude-typography/label/small */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.project-maxlength {
+    color: var(--Woodsmoke-700, #4C4D52);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 100%;
+    text-align: right;
+}
+
+.input-project-status {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+
+}
+
+.checkbox-div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.project-checkbox-div {
+    width: 100%;
+    gap: 76px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.proj-check-label {
+    color: #3F3F3F;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.proj-inp-stat {
+    width: 20px;
+    height: 20px;
+    accent-color: #953D96;
+    border: 2px solid #953D96;
+}
+
+.validity-from,
+.validity-to {
+    display: flex;
+    width: 100%;
+    gap: 16px;
+}
+
+.projects-validity {
+    display: flex;
+    gap: 48px;
+    width: 100%;
+    align-items: center;
+}
+
+.add-another-project,
+.delete-another-project {
+    color: #992E9D;
+
+    /* tutedude-typography/label/small */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.project-handlers {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
